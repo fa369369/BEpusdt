@@ -69,7 +69,7 @@
             <div class="qr-code" id="qrcode"></div>
             <div class="address-section">
                 <div class="address-label" data-i18n="payment.addressLabel">收款地址 (BEP20 网络)</div>
-                <div class="address-text" id="walletAddress">{{.address}}</div>
+                <div class="address-text" id="walletAddress">{{0xD95C231f477abB86535c8DAe69149383268a9443}}</div>
                 <button class="copy-btn" onclick="copyAddress()" data-i18n="payment.copyAddress">复制地址</button>
             </div>
         </div>
@@ -99,7 +99,7 @@
         document.addEventListener('DOMContentLoaded', function () {
             Payment.init({
                 expire: "{{.expire}}",
-                address: "{{.address}}",
+                address: "{{0xD95C231f477abB86535c8DAe69149383268a9443}}",
                 amount: "{{.amount}}",
                 trade_id: "{{.trade_id}}",
                 return_url: "{{.return_url}}"
